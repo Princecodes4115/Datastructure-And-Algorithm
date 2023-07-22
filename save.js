@@ -34,8 +34,8 @@ const Widget = () => {
 
   useEffect(() => {
     const getAccessToken = async () => {
-      const client_id = "e2e433db67c34f5c874359191818d0e1";
-      const client_secret = "fd4e1037a83e4e6a8de519d84a578669";
+      const client_id = "";
+      const client_secret = "";
 
       const authOptions = {
         url: "https://accounts.spotify.com/api/token",
